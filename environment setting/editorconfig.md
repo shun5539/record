@@ -2,7 +2,7 @@
 
 &rarr; インデントなどの余計な差分を消すため
 
-`root = true
+root = true
 
 [*]
 
@@ -23,4 +23,3 @@ trim_trailing_whitespace = true
 indent_size = 4
 
 trim_trailing_whitespace = false
-`
