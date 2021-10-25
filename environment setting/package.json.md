@@ -16,10 +16,27 @@
 - prettier:コードフォーマッター（ソースコードを整形してくれるツール）
 
 &rarr; eslintでは整形できないコードを整形できる
+
 - eslint:単純な構文エラーやプロジェクト固有のコーディング規約を定義することができる
 
-&rarr; 自由にルールを設定できる
+&rarr; 自由にルールを設定できる、rulesで上書きすることでルールを緩くできる
+
 - cspell:スペルチェック
+&rarr;cspell.jsonを手書き、./cspell.txt作成
+
+{
+  "version": "0.1",
+  "language": "en",
+  "dictionaries": ["en", "typescript"],
+  "dictionaryDefinitions": [
+    {
+      "name": "en",
+      "path": "./cspell.txt"
+    }
+  ],
+  "ignorePaths": ["node_modules/**", "dist/**"]
+}
+
 - ts-node-dev:tsファイルをjsファイルにコンパイルすることなく、起動することができ、
 さらに監視モードで素早く再起動が使用できる
 - npm-run-all:複数のnpm-scriptsを実行できるコマンドラインツール
