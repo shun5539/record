@@ -1,6 +1,11 @@
 ## package.json
 
+#### ・engines
+
+  `"node": "16.x"`と記載することで16系全て使える
+
 #### ・dependencies
+
 __dotenv__：見せれない情報を.envファイルで管理することで公開させない
 
 __express__：サーバーサイドJavascriptの実行環境
@@ -20,6 +25,7 @@ __morgan__：expressのmorganというログのライブラリー
 __fixpack__：アルファベット順に並び替え
 
 #### ・devDependencies
+
 __prettier__：コードフォーマッター（ソースコードを整形してくれるツール）
 
 &rarr; eslintでは整形できないコードを整形できる
@@ -33,6 +39,8 @@ __cspell__：スペルチェック
 
 __ts-node-dev__：tsファイルをjsファイルにコンパイルすることなく、起動することができ、
 さらに監視モードで素早く再起動が使用できる
+
+&rarr; scriptsでstartで動くようにすると良い
 
 __npm-run-all__：複数のnpm-scriptsを実行できるコマンドラインツール
 

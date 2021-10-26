@@ -3,11 +3,11 @@
 #### compilerOptions
 __"target"__："es6"
 
-&rarr; es6にすることでmapなどが使える
+&rarr; es6にすることでmapなどが使える。今回es6からES2021に変更
 
 __"lib"__：["dom", "dom.iterable", "esnext”]
 
-&rarr;ライブラリ、カッコに入れることで使える
+&rarr;ライブラリ、カッコに入れることで使える。今回ES2021に変更
 
 __allowJs__：これをtrueにしておくと、.jsと.jsxもコンパイル対象。型チェックなし
 
