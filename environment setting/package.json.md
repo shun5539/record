@@ -24,6 +24,8 @@ __morgan__：expressのmorganというログのライブラリー
 
 __fixpack__：アルファベット順に並び替え
 
+__lint-staged__：ステージングしたファイルに対し、特定のコマンドが実行できるパッケージ
+
 #### ・devDependencies
 
 __prettier__：コードフォーマッター（ソースコードを整形してくれるツール）
@@ -59,3 +61,11 @@ __npm-run-all__：複数のnpm-scriptsを実行できるコマンドラインツ
 (__nodemon__：ソースを監視して、自動でサーバーを再起動してくれるツール)
 
 *scriptで複数ある時は`run-p`をつける 後につけると順番担保、：*で全て並列実行
+
+#### ・husky
+
+__husky__：コミットやプッシュなど、特定のアクションが発生した時、特定のスクリプトを実行する仕組み `yarn husky install`コマンド実行すると`.husky`ディレクトリ作成
+
+__hooks__：`yarn husky add .husky/pre-commit "yarn lint-staged`ファイル作成
+
+  __precommit__：コミット前に実行されること
