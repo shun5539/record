@@ -1,13 +1,13 @@
 ## tsconfig.json
 
 #### compilerOptions
-__"target"__："es6"
+__target__："es6"
 
 &rarr; es6にすることでmapなどが使える。今回es6からES2021に変更
 
 &rarr; ECMAScriptを読むことでバージョン確認できる
 
-__"lib"__：["dom", "dom.iterable", "esnext”]
+__lib__：["dom", "dom.iterable", "esnext”]
 
 &rarr;ライブラリ、カッコに入れることで使える。今回ES2021に変更
 
@@ -29,7 +29,7 @@ __isolatedModules__：コンパイル対象のファイル間の関係性を一�
 
 はエラーとなりコンパイル出来ない
 
-__"module"__： "commonjs"
+__module__： "commonjs"
 
 __moduleResolution__：tscのモジュール解決の方法を指定する。
 
@@ -46,9 +46,9 @@ __resolveJsonModule__：json’拡張子のファイルをモジュールとし�
 
 __skipLibCheck__：型定義ファイルのチェックをスキップ
 
-__"strict"__： true
+__strict__： true
 
-__"useUnknownInCatchVariables"__：これを設定すると catch 構文の引数が any 型から unknown 型となる
+__useUnknownInCatchVariables__：これを設定すると catch 構文の引数が any 型から unknown 型となる
 
 &rarr; trueからfalseに変更
 
