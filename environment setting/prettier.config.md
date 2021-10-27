@@ -6,12 +6,14 @@
 - semi：デフォルトtrue「ステートメントの最後にセミコロンを入れる」
 - trailingComma：デフォルトes5「末尾のコンマ」
 
-module.exports = {
+例
 
-  printWidth: 120,
+    module.exports = {
 
-  semi: false,
+      printWidth: 120,
 
-  trailingComma: "all",
+      semi: false,
 
-}
+      trailingComma: "all",
+
+    }

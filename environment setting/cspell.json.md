@@ -5,26 +5,26 @@
 
 例
 
-{
-
-  "version": "0.2",
-
-  "language": "en",
-
-  "dictionaries": ["en", "typescript"],
-
-  "dictionaryDefinitions": [
-
     {
 
-      "name": "en",
+      "version": "0.2",
 
-      "path": "./cspell.txt"
+      "language": "en",
+
+      "dictionaries": ["en", "typescript"],
+
+      "dictionaryDefinitions": [
+
+        {
+
+          "name": "en",
+
+          "path": "./cspell.txt"
+
+        }
+
+      ],
+
+      "ignorePaths": ["node_modules/**"]
 
     }
-
-  ],
-
-  "ignorePaths": ["node_modules/**"]
-
-}
