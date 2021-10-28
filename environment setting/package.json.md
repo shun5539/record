@@ -66,6 +66,6 @@ __npm-run-all__：複数のnpm-scriptsを実行できるコマンドラインツ
 
 __husky__：コミットやプッシュなど、特定のアクションが発生した時、特定のスクリプトを実行する仕組み `yarn husky install`コマンド実行すると`.husky`ディレクトリ作成
 
-__hooks__：`.husky`ディレクトリが作成されると有効化される。`yarn husky add .husky/pre-commit "yarn lint-staged`ファイル作成
+__hooks__：`.husky`ディレクトリが作成されると有効化される。`yarn husky add .husky/pre-commit "yarn lint-staged --config lint-staged.config.js`ファイル作成
 
 __precommit__：コミット前に実行されること
