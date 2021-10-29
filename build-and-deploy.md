@@ -25,7 +25,6 @@
 
 `gcloud config list`：projectが一致しているか見る 
 
-// 以下変更
 - Cloud KMSを導入するとgithub上にファイルを上げても暗号化される
 &rarr; チーム全体が必要な情報で、かつ隠したい場合は導入すると良い
 [参考記事](https://qiita.com/takasp/items/99270cf3bf0546f7e55e):Qiita
