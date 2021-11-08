@@ -1,7 +1,7 @@
 ## cspell.json
 
--jsonとtxtをプラス
--txtに書いた文字はチェックされない
+-json と txt をプラス
+-txt に書いた文字はチェックされない
 
 例
 
