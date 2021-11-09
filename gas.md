@@ -34,3 +34,26 @@
         Logger.log(json);
 
     }
+
+- Cloud Run で動かし、スプレットシートに書き込む
+
+例
+
+    const scraping = "URL"
+
+    function line(){
+    //スクレイピング実行
+    const response = UrlFetchApp.fetch(scraping);
+    //レスポンス読み取り
+    const data = JSON.parse(response)
+
+    //LINEのシートに書き込む
+    const ss = SpreadsheetApp.getActiveSpreadsheet()
+    const sheet = ss.getSheetByName("シート名")
+    sheet.getRange(2,1,data.length,data[0].length).setValues(data)
+    }
+
+- 上記で気をつけること
+
+1. setValue：1 つのデータだけをセットする
+1. setValues：複数のデータをセットする
