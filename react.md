@@ -76,6 +76,8 @@
 
 ## Redux
 
+**設計段階**：ルートの部分で Redux を用いる(Api で引っ張ったところ)
+
 #### flow
 
 component&rarr;Actions&rarr;(dispatch)&rarr;Reducer&rarr;(State 更新)&rarr;State
@@ -100,4 +102,5 @@ component&rarr;Actions&rarr;(dispatch)&rarr;Reducer&rarr;(State 更新)&rarr;Sta
 
 - React だけだと大規模アプリは辛い
   &rarr; ネストが深くなると props を渡す作業が多くなる（バケツリレー）
+
   &rarr; Redux を使うと store から直接渡せる

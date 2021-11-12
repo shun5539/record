@@ -35,3 +35,4 @@
     if (a !== b) {
     throw new Error("エラー")
     }
+    * b=nullとか
