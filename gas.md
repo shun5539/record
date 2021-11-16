@@ -39,19 +39,38 @@
 
 例
 
-    const scraping = "URL"
+        const scraping = "Cloud Run URL"
 
-    function line(){
-    //スクレイピング実行
-    const response = UrlFetchApp.fetch(scraping);
-    //レスポンス読み取り
+        function line(){
+        //スプレットシートからスクレイピングするデータ取得
+
+    const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
+    const sheet = spreadsheet.getActiveSheet();
+    const range = sheet.getRange("LINE!A1:A3").getValues();
+    const value = JSON.stringify(range)
+
+        // POSTオプション
+
+    const post_options = {
+    method: "post",
+    contentType:"application/json",
+    payload:value,
+    };
+
+        // POST
+
+    const response = UrlFetchApp.fetch(scraping, post_options);
+
+        //JSON読み込み
+
     const data = JSON.parse(response)
 
-    //LINEのシートに書き込む
-    const ss = SpreadsheetApp.getActiveSpreadsheet()
-    const sheet = ss.getSheetByName("シート名")
-    sheet.getRange(2,1,data.length,data[0].length).setValues(data)
-    }
+        //LINEのシートに書き込む
+
+    const sheets = spreadsheet.getSheetByName("LINE")
+    sheets.getRange(2,2,data.length,data[0].length).setValues(data)
+
+        }
 
 - 上記で気をつけること
 
