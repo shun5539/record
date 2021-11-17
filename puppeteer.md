@@ -20,3 +20,9 @@
    page.waitFor(), page.waitForSelector()などで待機する。
 
 page.waitForNavigation()はある Web ページから別の Web ページに移動するまで待機する関数のため、Single Page Application のように同じ Web ページに留まる場合は待機タイムアウトする。
+
+- `await page.target().createCDPSession()`[cdpSession](https://github.com/puppeteer/puppeteer/blob/main/docs/api.md#class-cdpsession)
+
+&rarr; puppeteer 内にある ChromeDevtools プロトコルセッションを作成できる
+
+&rarr; よってレスポンスの内容を書き換えることができる
