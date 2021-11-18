@@ -32,3 +32,7 @@
 開発者が書いた新しいコードとマスターブランチを頻繁に統合するプロセス。新しい機能開発のためにブランチを作成する場合、つぎにマージするまでの期間が長くなるにしたがって変更量が多くなり、マージ作業が大変になるだけでなく、問題が含まれるコードの特定と分離が難しくなる。一回のコミットでの変更量を小さくして頻繁にマージすれば、問題の発見が早くなり対処が楽になる。問題発見のオーバーヘッドを小さくするために自動化されたテストを行う。
 
 <img src="ci-cd.png" width="500px">
+
+[参考資料](https://speakerdeck.com/kesin11/cdfalsebotorunetukuwoba-wo-dekiteimasuka-bigquerydebirudoqing-bao-datusiyubodowogou-zhu-sitahua)
+
+Github Actions も CI サービスに含まれる
