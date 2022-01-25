@@ -2,70 +2,66 @@
 
 #### ・engines
 
-  `"node": "16.x"`と記載することで16系全て使える
+`"node": "16.x"`と記載することで 16 系全て使える
 
 #### ・dependencies
 
-__dotenv__：見せれない情報を.envファイルで管理することで公開させない
+**dotenv**：見せれない情報を.env ファイルで管理することで公開させない
 
-__express__：サーバーサイドJavascriptの実行環境
+**express**：サーバーサイド Javascript の実行環境
 
-__helmet__：セキュリティの脆弱性で必要、expressと相性が良い
+**helmet**：セキュリティの脆弱性で必要、express と相性が良い
 
-__typescript__：tsを使えるようにする
-
-&rarr;`tsc --init`コマンドでtsconfig.jsonを作成
-
-__ts-node__：tsを毎回tscコマンドを叩いてjsにコンパイルことをしなくてもよくするやつ
-
-__winston__：複数のトランスポート（出力先）をサポートするロギングライブラリ（logformと繋がっている）
-
-__morgan__：expressのmorganというログのライブラリー
-
-__fixpack__：アルファベット順に並び替え
-
-__lint-staged__：ステージングしたファイルに対し、特定のコマンドが実行できるパッケージ
+**winston**：複数のトランスポート（出力先）をサポートするロギングライブラリ（logform と繋がっている）
 
 #### ・devDependencies
 
-__prettier__：コードフォーマッター（ソースコードを整形してくれるツール）
+**fixpack**：アルファベット順に並び替え
 
-&rarr; eslintでは整形できないコードを整形できる
+**typescript**：ts を使えるようにする
 
-__eslint__：単純な構文エラーやプロジェクト固有のコーディング規約を定義することができる
+&rarr;`yarn run tsc --init`コマンドで tsconfig.json を作成
 
-&rarr; 自由にルールを設定できる、rulesで上書きすることでルールを緩くできる(.eslintrc.js)
+**ts-node**：ts を毎回 tsc コマンドを叩いて js にコンパイルことをしなくてもよくするやつ
 
-__eslint-config-prettier__：prettierと競合するルールをオフにする
+**prettier**：コードフォーマッター（ソースコードを整形してくれるツール）
 
-__eslint-config-airbnb-base__：.eslintrc.jsのextendsで使うため
+&rarr; eslint では整形できないコードを整形できる
 
-__eslint-plugin-import__：これがないと動かない
+**eslint**：単純な構文エラーやプロジェクト固有のコーディング規約を定義することができる
 
-__@typescript-eslint/eslint-plugin__：.eslintrc.jsでpluginを使いたうため
+&rarr; 自由にルールを設定できる、rules で上書きすることでルールを緩くできる(.eslintrc.js)
 
-__@typescript-eslint/parser__：.eslintrc.jsでparserを使いたうため
+**eslint-config-prettier**：prettier と競合するルールをオフにする
 
-__@types/node__：tsで使う時、node_modulesの型定義ファイル
+**@typescript-eslint/eslint-plugin**：.eslintrc.js で plugin を使いたうため
 
-__cspell__：スペルチェック
-&rarr;cspell.jsonを手書き、./cspell.txt作成
+**@typescript-eslint/parser**：.eslintrc.js で parser を使いたうため
 
-__ts-node-dev__：tsファイルをjsファイルにコンパイルすることなく、起動することができ、
+**@types/node**：ts で使う時、node_modules の型定義ファイル
+
+**cspell**：スペルチェック
+&rarr;cspell.json を手書き、./cspell.txt 作成
+
+**ts-node-dev**：ts ファイルを js ファイルにコンパイルすることなく、起動することができ、
 さらに監視モードで素早く再起動が使用できる
 
-&rarr; scriptsでstartで動くようにすると良い
+&rarr; scripts で start で動くようにすると良い
 
-__npm-run-all__：複数のnpm-scriptsを実行できるコマンドラインツール
+**npm-run-all**：複数の npm-scripts を実行できるコマンドラインツール
 
-(__nodemon__：ソースを監視して、自動でサーバーを再起動してくれるツール)
+(**nodemon**：ソースを監視して、自動でサーバーを再起動してくれるツール)
 
-*scriptで複数ある時は`run-p`をつける 後につけると順番担保、：*で全て並列実行
+*script で複数ある時は`run-p`をつける 後につけると順番担保、：*で全て並列実行
+
+### +a
 
 #### ・husky
 
-__husky__：コミットやプッシュなど、特定のアクションが発生した時、特定のスクリプトを実行する仕組み `yarn husky install`コマンド実行すると`.husky`ディレクトリ作成
+**husky**：コミットやプッシュなど、特定のアクションが発生した時、特定のスクリプトを実行する仕組み `yarn husky install`コマンド実行すると`.husky`ディレクトリ作成
 
-__hooks__：`.husky`ディレクトリが作成されると有効化される。`yarn husky add .husky/pre-commit "yarn lint-staged --config lint-staged.config.js`ファイル作成
+**hooks**：`.husky`ディレクトリが作成されると有効化される。`yarn husky add .husky/pre-commit "yarn lint-staged --config lint-staged.config.js`ファイル作成
 
-__precommit__：コミット前に実行されること
+**precommit**：コミット前に実行されること
+
+**lint-staged**：ステージングしたファイルに対し、特定のコマンドが実行できるパッケージ
