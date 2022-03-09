@@ -6,46 +6,46 @@
 
 `Media-Analysis-DS > ResultTable`
 
-1. `ydn_report_account_YYYYMMDD.sql`を作成
+1.  `ydn_report_account_YYYYMMDD.sql`を作成
 
-   WITH ydn_report_account AS (
-   SELECT
-   adId,
-   CAST (day AS DATE) AS date,
-   gender,
-   age,
-   prefecture,
-   IFNULL(SUM (impressions),0) AS impressions,
-   IFNULL(SUM (clicks),0) AS clicks,
-   IFNULL(SUM (conversions),0) AS cv,
-   IFNULL(SUM (cost),0) AS cost,
-   FROM `piala-ad-report-pro.platform.ydn_report_account_v201911`
-   WHERE DATE(\_PARTITIONTIME) BETWEEN "YYYY-MM-DD" AND "YYYY-MM-DD"
-   GROUP BY adId,date,gender,age,prefecture
-   )
-   SELECT \* FROM ydn_report_account
+        WITH ydn_report_account AS (
+        SELECT
+        adId,
+        CAST (day AS DATE) AS date,
+        gender,
+        age,
+        prefecture,
+        IFNULL(SUM (impressions),0) AS impressions,
+        IFNULL(SUM (clicks),0) AS clicks,
+        IFNULL(SUM (conversions),0) AS cv,
+        IFNULL(SUM (cost),0) AS cost,
+        FROM `piala-ad-report-pro.platform.ydn_report_account_v201911`
+        WHERE DATE(\_PARTITIONTIME) BETWEEN "YYYY-MM-DD" AND "YYYY-MM-DD"
+        GROUP BY adId,date,gender,age,prefecture
+        )
+        SELECT \* FROM ydn_report_account
 
 - `BETWEEN "YYYY-MM-DD" AND "YYYY-MM-DD"`の中には先月分の年月日を記載する
 
-2. `ydn_report_report_YYYYMMDD.sql`を作成
+2.  `ydn_report_report_YYYYMMDD.sql`を作成
 
-   WITH ydn_report_report AS (
-   SELECT
-   CAST (adId AS STRING ) AS adId,
-   CAST (day AS DATE) AS date,
-   device,
-   os,
-   appli,
-   hourofday,
-   IFNULL(SUM (impressions),0) AS impressions,
-   IFNULL(SUM (clicks),0) AS clicks,
-   IFNULL(SUM (conversions),0) AS cv,
-   IFNULL(SUM (cost),0) AS cost,
-   FROM `piala-ad-report-pro.platform.ydn_report_report_v201911`
-   WHERE DATE(\_PARTITIONTIME) BETWEEN "YYYY-MM-DD" AND "YYYY-MM-DD"
-   GROUP BY adId,date,device,os,appli,hourofday
-   )
-   SELECT \* FROM ydn_report_report
+        WITH ydn_report_report AS (
+        SELECT
+        CAST (adId AS STRING ) AS adId,
+        CAST (day AS DATE) AS date,
+        device,
+        os,
+        appli,
+        hourofday,
+        IFNULL(SUM (impressions),0) AS impressions,
+        IFNULL(SUM (clicks),0) AS clicks,
+        IFNULL(SUM (conversions),0) AS cv,
+        IFNULL(SUM (cost),0) AS cost,
+        FROM `piala-ad-report-pro.platform.ydn_report_report_v201911`
+        WHERE DATE(\_PARTITIONTIME) BETWEEN "YYYY-MM-DD" AND "YYYY-MM-DD"
+        GROUP BY adId,date,device,os,appli,hourofday
+        )
+        SELECT \* FROM ydn_report_report
 
 - `BETWEEN "YYYY-MM-DD" AND "YYYY-MM-DD"`の中には先月分の年月日を記載する
 
