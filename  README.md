@@ -1,12 +1,12 @@
 ## Boilerplate
 
-- back-ts(バックエンド)
+- back-ts(back-end)
 
   - back-ts-bq
   - back-ts-puppeteer
   - back-ts-setting
 
-- front-ts(フロントエンド)
+- front-ts(front-end)
 
   - front-ts-hooks
   - front-ts-react-modal
@@ -19,7 +19,7 @@
   - gas-chatWork
   - gas-post
 
-- python(バックエンド)
+- python(back-end)
 
   - python-bq
   - python-chatWork
@@ -27,7 +27,7 @@
   - python-setting
   - python-tasks
 
-- terraform(インフラ)
+- terraform(infra)
 
   - terraform-run
 
