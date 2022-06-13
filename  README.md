@@ -33,5 +33,6 @@
 
 - other
   - daily-report
-  - gcp seminar
-  - git
+  - gcp-seminar
+  - git-nodenv
+  - sql
