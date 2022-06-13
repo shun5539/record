@@ -36,3 +36,4 @@
   - gcp-seminar
   - git-nodenv
   - sql
+  - ts-environment-description
