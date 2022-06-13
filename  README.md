@@ -1,4 +1,4 @@
-## Boilerplate
+## Boilerplate and others
 
 - back-ts(back-end)
 
@@ -31,7 +31,7 @@
 
   - terraform-run
 
-- other
+- others
   - daily-report
   - gcp-seminar
   - git-nodenv
