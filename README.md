@@ -32,8 +32,8 @@
   - [terraform-run](https://github.com/shun5539/record/tree/master/terraform/terraform-run)
 
 - others
-  - daily-report
-  - gcp-seminar
-  - git-nodenv
-  - sql
-  - ts-environment-description
+  - [daily-report](https://github.com/shun5539/record/tree/master/others/daily-report)
+  - [gcp-seminar](https://github.com/shun5539/record/tree/master/others/gcp-seminar)
+  - [git-nodenv](https://github.com/shun5539/record/tree/master/others/git-nodenv)
+  - [sql](https://github.com/shun5539/record/tree/master/others/sql)
+  - [ts-environment-description](https://github.com/shun5539/record/tree/master/others/ts-environment-description)
