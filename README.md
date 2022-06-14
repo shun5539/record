@@ -2,7 +2,7 @@
 
 - back-ts(back-end)
 
-  - back-ts-bq
+  - [back-ts-bq](https://github.com/shun5539/record/tree/master/back-ts/back-ts-bq)
   - back-ts-puppeteer
   - back-ts-setting
 
