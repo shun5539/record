@@ -1,0 +1,9 @@
+{
+  "reportRequests": [
+    {
+      "dateRanges": [{ "startDate": "yesterday", "endDate": "yesterday" }],
+      "dimensions": [{ "name": "city" }],
+      "metrics": [{ "name": "activeUsers" }, { "name": "newUsers" }]
+    }
+  ]
+}
