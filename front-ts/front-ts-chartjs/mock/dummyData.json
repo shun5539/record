@@ -1,0 +1,59 @@
+{
+  "datasets": [
+    {
+      "ctr": 0,
+      "cvr": 0,
+      "pointStyle": "https://images.outbrainimg.com/transform/v3/eyJpdSI6IjhjZGY2NzQ3NzYwYTQwODU1MzJiYzUwNTNkM2RjZjg0MGFmMDJhNGFhMWQ5NjI3NTE2ZjFjZjRjZjJmOTVmM2IiLCJ3IjoxNTAsImgiOjE1MCwiZCI6MS4wLCJjcyI6MCwiZiI6MH0.jpg"
+    },
+    {
+      "ctr": 0.04,
+      "cvr": 0,
+      "pointStyle": "https://images.outbrainimg.com/transform/v3/eyJpdSI6IjhjZGY2NzQ3NzYwYTQwODU1MzJiYzUwNTNkM2RjZjg0MGFmMDJhNGFhMWQ5NjI3NTE2ZjFjZjRjZjJmOTVmM2IiLCJ3IjoxNTAsImgiOjE1MCwiZCI6MS4wLCJjcyI6MCwiZiI6MH0.jpg"
+    },
+    {
+      "ctr": 0.05,
+      "cvr": 0,
+      "pointStyle": "https://images.outbrainimg.com/transform/v3/eyJpdSI6IjhjZGY2NzQ3NzYwYTQwODU1MzJiYzUwNTNkM2RjZjg0MGFmMDJhNGFhMWQ5NjI3NTE2ZjFjZjRjZjJmOTVmM2IiLCJ3IjoxNTAsImgiOjE1MCwiZCI6MS4wLCJjcyI6MCwiZiI6MH0.jpg"
+    },
+    {
+      "ctr": 0.011,
+      "cvr": 0.43,
+      "pointStyle": "https://images.outbrainimg.com/transform/v3/eyJpdSI6IjhjZGY2NzQ3NzYwYTQwODU1MzJiYzUwNTNkM2RjZjg0MGFmMDJhNGFhMWQ5NjI3NTE2ZjFjZjRjZjJmOTVmM2IiLCJ3IjoxNTAsImgiOjE1MCwiZCI6MS4wLCJjcyI6MCwiZiI6MH0.jpg"
+    },
+    {
+      "ctr": 0.14,
+      "cvr": 0,
+      "pointStyle": "https://images.outbrainimg.com/transform/v3/eyJpdSI6IjhjZGY2NzQ3NzYwYTQwODU1MzJiYzUwNTNkM2RjZjg0MGFmMDJhNGFhMWQ5NjI3NTE2ZjFjZjRjZjJmOTVmM2IiLCJ3IjoxNTAsImgiOjE1MCwiZCI6MS4wLCJjcyI6MCwiZiI6MH0.jpg"
+    },
+    {
+      "ctr": 0.06,
+      "cvr": 0,
+      "pointStyle": "https://images.outbrainimg.com/transform/v3/eyJpdSI6IjhjZGY2NzQ3NzYwYTQwODU1MzJiYzUwNTNkM2RjZjg0MGFmMDJhNGFhMWQ5NjI3NTE2ZjFjZjRjZjJmOTVmM2IiLCJ3IjoxNTAsImgiOjE1MCwiZCI6MS4wLCJjcyI6MCwiZiI6MH0.jpg"
+    },
+    {
+      "ctr": 0.08,
+      "cvr": 0.46,
+      "pointStyle": "https://images.outbrainimg.com/transform/v3/eyJpdSI6IjhjZGY2NzQ3NzYwYTQwODU1MzJiYzUwNTNkM2RjZjg0MGFmMDJhNGFhMWQ5NjI3NTE2ZjFjZjRjZjJmOTVmM2IiLCJ3IjoxNTAsImgiOjE1MCwiZCI6MS4wLCJjcyI6MCwiZiI6MH0.jpg"
+    },
+    {
+      "ctr": 0.04,
+      "cvr": 0.36,
+      "pointStyle": "https://images.outbrainimg.com/transform/v3/eyJpdSI6IjhjZGY2NzQ3NzYwYTQwODU1MzJiYzUwNTNkM2RjZjg0MGFmMDJhNGFhMWQ5NjI3NTE2ZjFjZjRjZjJmOTVmM2IiLCJ3IjoxNTAsImgiOjE1MCwiZCI6MS4wLCJjcyI6MCwiZiI6MH0.jpg"
+    },
+    {
+      "ctr": 0.1,
+      "cvr": 0,
+      "pointStyle": "https://images.outbrainimg.com/transform/v3/eyJpdSI6IjhjZGY2NzQ3NzYwYTQwODU1MzJiYzUwNTNkM2RjZjg0MGFmMDJhNGFhMWQ5NjI3NTE2ZjFjZjRjZjJmOTVmM2IiLCJ3IjoxNTAsImgiOjE1MCwiZCI6MS4wLCJjcyI6MCwiZiI6MH0.jpg"
+    },
+    {
+      "ctr": 0.04,
+      "cvr": 0,
+      "pointStyle": "https://images.outbrainimg.com/transform/v3/eyJpdSI6IjhjZGY2NzQ3NzYwYTQwODU1MzJiYzUwNTNkM2RjZjg0MGFmMDJhNGFhMWQ5NjI3NTE2ZjFjZjRjZjJmOTVmM2IiLCJ3IjoxNTAsImgiOjE1MCwiZCI6MS4wLCJjcyI6MCwiZiI6MH0.jpg"
+    },
+    {
+      "ctr": 0.05,
+      "cvr": 0.31,
+      "pointStyle": "https://images.outbrainimg.com/transform/v3/eyJpdSI6IjhjZGY2NzQ3NzYwYTQwODU1MzJiYzUwNTNkM2RjZjg0MGFmMDJhNGFhMWQ5NjI3NTE2ZjFjZjRjZjJmOTVmM2IiLCJ3IjoxNTAsImgiOjE1MCwiZCI6MS4wLCJjcyI6MCwiZiI6MH0.jpg"
+    }
+  ]
+}
