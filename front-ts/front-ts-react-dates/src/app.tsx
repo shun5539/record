@@ -3,7 +3,7 @@ import { DateRangePicker } from "react-dates";
 import "moment/locale/ja"; // 日本語ローカライズ
 import "react-dates/initialize";
 
-import "react-dates/lib/css/_datepicker.css";
+import "./css/datePicker.css";
 
 const App = () => {
   const [startDate, setStartDate] = useState<moment.Moment | null>(null);
