@@ -53,7 +53,7 @@ const App = () => {
   return (
     <>
       <h1>マッピング</h1>
-      <Bubble options={options} data={data} width={10} height={10} />;
+      <Bubble options={options} data={data} />
     </>
   );
 };
